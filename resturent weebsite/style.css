@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  padding: 12px;
+  margin-left: 60px;
+}
+nav {
+  z-index: 1;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+  position: sticky;
+  top: 0;
+  margin-bottom: 23px;
+  background-color: white;
+}
+.all {
+  margin-left: 85px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: auto 12px;
+  margin-bottom: 23px;
+}
+.text {
+  background-color: rgb(38, 128, 38);
+  color: white;
+  padding: 10px;
+}
+.big h1 {
+  font-size: 75px;
+  font-family: sans-serif;
+  font-weight: 300;
+  gap: 23px;
+}
+.tasveer {
+  gap: 34px;
+}
+.para {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.log {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kab {
+  background-color: #27a527;
+  color: white;
+  padding: 9px 15px;
+}
+.end {
+  text-align: center;
+  padding: 20px;
+}
+.parent {
+  /* display: grid; */
+  display: flex;
+  justify-content: center;
+  gap: 0px 33px;
+  grid-template-columns: 333px 333px 333px 333px;
+}
+hr {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.parent img {
+  object-fit: cover;
+  transition: all ease-in-out o.5s;
+  width: 310px;
+}
+.parent img:hover {
+  /* width: 325px; */
+  transform: scale(1.05);
+}
+.pic{
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-around;
+}
+.ended{
+  background-color: rgb(253, 218, 224);
+}
+.list1>ul li{
+  font-family: sans-serif;
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.list2>ul li{
+  font-family: sans-serif;
+  list-style: none;
+  padding: 5px 0px;
+}
+.lin{
+  padding: 5px opx;
+}
+.ended{
+  margin-top: 23px;
+  padding: 70px;
+}
